@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Dropdown Menu"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Msport-shop"
+	}
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+form {
+    width: 500px;
+    background-color: #fff;
+    margin: 50px auto;
+}
+.container {
+    padding: 50px;
+}
+.container .name h1 {
+    font-size: 35px;
+    text-align: center;
+}
+.container .infor {
+    border-top: 1px solid #ccc;
+}
+.container .infor .title {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.container input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    display: block;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    margin: 20px 0px;  
+}
+.container a {
+    font-size: 16px;
+    color: #c5c4c4;
+    transition: all 0.41s;
+}
+.container a:hover {
+    color: #fe7250;
+}
+.container .login {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: 55px;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    transition: all 0.41s;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.container .login:hover {
+    background-color: #fe7250;
+}
+
+
+

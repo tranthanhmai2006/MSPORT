@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 10px 20px;
+}
+.banner {
+    background-image: url("../imgs/bg_page.webp");
+    /* width: 100%; */
+    /* height: 150px; */
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 75px; */
+    padding: 150px 0px 130px;
+    box-sizing: border-box;
+}
+.content_banner {
+    text-align: center;
+    padding: 30px 0px;
+}
+.content_banner h1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #111;
+    margin: 0px 0px 8px;
+}
+.content_path a {
+    font-size: 16px;
+    color: #111;
+    transition: all 0.41s;
+}
+.content_path a:hover {
+    color: #fe7250;
+}
+.content_path .small {
+    font-size: 16px;
+    color: #111;
+    padding: 0px 10px
+}
+.content_path .wishlist {
+    font-size: 16px;
+    color: #111;
+}
+
+.login-please {
+    padding: 50px 0px;
+}
+.login-please .please {
+    color: black;
+    text-align: center;
+}
+.login-please .please a {
+    color: black;
+    transition: all 0.41s;
+}
+.login-please .please a:hover {
+    color: #fe7250;
+}
