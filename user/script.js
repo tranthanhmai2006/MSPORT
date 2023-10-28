@@ -38,7 +38,7 @@ let products = {
     },
     {
       productName: "Pull Up Trainer",
-      category: " Machine",
+      category: "Machine",
       price: "$199.00",
       image: "../imgs/bestseller7.webp",
     },
@@ -59,7 +59,7 @@ let products = {
       productName: " 600i Folding Treadmill",
       category: "Treadmill",
       price: "$2,999.00",
-      image: "../imgs/bestseller8.webp.",
+      image: "../imgs/bestseller8.webp",
     },
     {
       productName: "Bench, Leg Curl And Preacher",

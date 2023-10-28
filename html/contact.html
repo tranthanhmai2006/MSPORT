@@ -31,7 +31,7 @@
           <div class="logo"><a href="../index.html">MSPORT</a></div>
           <ul class="links">
             <li><a href="../index.html">HOME</a></li>
-            <li><a href="./html/shop.html">SHOP</a></li>
+            <li><a href="../html/shop.html">SHOP</a></li>
             <li>
               <a href="#" class="desktop-link">FEATURE</a>
               <input type="checkbox" id="show-features" />
@@ -102,43 +102,98 @@
         <textarea class="feedback-input" placeholder="Comment" id="comment" rowa="3"></textarea>
         <button onlick="sendMail()">SUBMIT</button>
       </form> -->
-    <div class="container contact_form border mt-3 bg-light">
-      <div class="row">
-        <div class="col-md-6 p-5 bg-primary text-white">
+
+
+    <div class="contact-in container contact_form border mt-3 bg-light">
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123850.11961209912!2d108.19463191895146!3d14.058493978462076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2zVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1698471362133!5m2!1svi!2s" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="row contact-form">
+        <!-- <div class="col-md-6 p-5 bg-primary text-white">
           <h1>Hi there!</h1>
           <h4>
             I am available for freelance work. Connect with me via and call in
             to my account.
           </h4>
-        </div>
-        <div class="col-md-6 border-left py-3">
-          <h1>Contact form</h1>
-          <div class="form-group">
-            <h5 for="name">Name</h5>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Enter name"
-            />
+        </div> -->
+        <h1>CONTACT US</h1>
+        <form>
+          <div class="col-md-6 border-left py-3">
+            <!-- <h1 class="contact">Contact form</h1> -->
+            <div class="form-group">
+              <h5 for="name">Name</h5>
+              <input
+                type="text"
+                class="form-control contact-from-txt"
+                id="name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="email">Email</h5>
+              <input
+                type="email"
+                class="form-control contact-form-txt"
+                id="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="message">Message</h5>
+              <textarea class="form-control contact-form-textarea" id="message" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="sendMail()">Submit</button>
           </div>
-          <div class="form-group">
-            <h5 for="email">Email</h5>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Enter email"
-            />
-          </div>
-          <div class="form-group">
-            <h5 for="message">Message</h5>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
-        </div>
+        </form>
       </div>
     </div>
+
+    <!-- <div class="contact-in">
+      <div class="contact-map"></div>
+      <div class="contact-form">
+          <h1>Contact Us</h1>
+          <form>
+            <div class="form-group">
+              <h5 for="name">Name</h5>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="email">Email</h5>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="message">Message</h5>
+              <textarea class="form-control"  id="message" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+          </form>
+            
+      </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--footer-->
     <div class="top-footer">
@@ -212,5 +267,6 @@
         <a href="#"><img src="../imgs/jcb.jpeg" alt="" /></a>
       </div>
     </div>
+
   </body>
 </html>
