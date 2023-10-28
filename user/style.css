@@ -32,26 +32,26 @@ a {
   padding: 1em 0.3em;
 }
 #search-container input:focus {
-  border-bottom-color: #6759ff;
+  border-bottom-color: #fe7250;
 }
 #search-container button {
   padding: 1em 2em;
   margin-left: 1em;
-  background-color: #6759ff;
+  background-color: #fe7250;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 0.5em;
 }
 .button-value {
-  border: 2px solid #6759ff;
+  border: 2px solid #fe7250;
   padding: 1em 2.2em;
   border-radius: 3em;
   background-color: transparent;
-  color: #6759ff;
+  color: #fe7250;
   cursor: pointer;
 }
 .active {
-  background-color: #6759ff;
+  background-color: ##fe7250f;
   color: #ffffff;
 }
 #products {

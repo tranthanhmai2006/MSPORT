@@ -5,52 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../css/cssheader.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>User - Mai</title>
 </head>
 <body>
-    <div class="header wrapper">
-        <nav>
-          <input type="checkbox" id="show-search">
-          <input type="checkbox" id="show-menu">
-          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-          <div class="content">
-          <div class="logo"><a href="../index.html">MSPORT</a></div>
-            <ul class="links">
-              <li><a href="../index.html">HOME</a></li>
-              <li><a href="../html/shop.html">SHOP</a></li>
-              <li>
-                <a href="#" class="desktop-link">FEATURE</a>
-                <input type="checkbox" id="show-features">
-                <label for="show-features">BLOGS</label>
-                <ul>
-                  <li><a href="#">Drop Menu 1</a></li>
-                  <li><a href="#">Drop Menu 2</a></li>
-                  <li><a href="#">Drop Menu 3</a></li>
-                  <li><a href="#">Drop Menu 4</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="./html/contact.html" class="desktop-link">CONTACT</a>
-                <input type="checkbox" id="show-services">
-                <label for="show-services">Services</label>
-                <ul>
-                  <li><a href="#">Drop Menu 1</a></li>
-                  <li><a href="#">Drop Menu 2</a></li>
-                  <li><a href="#">Drop Menu 3</a></li>
-                  <li>
-                    <a href="#" class="desktop-link">More Items</a>
-                    <input type="checkbox" id="show-items">
-                    <label for="show-items">More Items</label>
-                    <ul>
-                      <li><a href="#">Sub Menu 1</a></li>
-                      <li><a href="#">Sub Menu 2</a></li>
-                      <li><a href="#">Sub Menu 3</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <!-- Header -->
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+        <div class="logo"><a href="../index.html">MSPORT</a></div>
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../html/shop.html">SHOP</a></li>
+            <li>
+              <a href="#" class="desktop-link">FEATURE</a>
+              <input type="checkbox" id="show-features">
+              <label for="show-features">BLOGS</label>
+              <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li><a href="#">Drop Menu 4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./html/contact.html" class="desktop-link">CONTACT</a>
+              <!-- <input type="checkbox" id="show-services">
+              <label for="show-services">Services</label>
+              <ul>
+                <li><a href="#">Drop Menu 1</a></li>
+                <li><a href="#">Drop Menu 2</a></li>
+                <li><a href="#">Drop Menu 3</a></li>
+                <li>
+                  <a href="#" class="desktop-link">More Items</a>
+                  <input type="checkbox" id="show-items">
+                  <label for="show-items">More Items</label>
+                  <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                  </ul>
+                </li>
+              </ul> -->
+            </li>
+          </ul>
+        </div>
+        <div class="icon">
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+        <form action="#" class="search-box">
+          <input type="text" placeholder="Type Something to Search..." required>
+          <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </form>
+          <a href="./form/login.html" target="_blank" ><i class="fa-regular fa-user"></i></a>
+          <a href="../icon-header/heart-icon.html"><i class="fa-regular fa-heart"></i></a>
+          <a href="#"><i class="fa-regular fa-clipboard"></i></a>
+      </div>
+      </nav>
+    </div>
+
+
+
+
+
           <div class="icon">
             <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
           <form action="#" class="search-box">
@@ -76,20 +95,96 @@
       <div id="buttons">
         <button class="button-value" onclick="filterProduct('all')">All</button>
         <button class="button-value" onclick="filterProduct('Topwear')">
-          Topwear
+          Bike
         </button>
         <button class="button-value" onclick="filterProduct('Bottomwear')">
-          Bottomwear
+          Machine
         </button>
         <button class="button-value" onclick="filterProduct('Jacket')">
-          Jacket
+          Bra
         </button>
         <button class="button-value" onclick="filterProduct('Watch')">
-          Watch
+          Shorts
         </button>
       </div>
       <div id="products"></div>
     </div>
+
+
+
+    <!--footer-->
+    <div class="top-footer">
+      <div class="footer">
+          <div class="inf-footer">
+              <h1>MSPORT</h1>
+              <p>Subscribe our newsletter and get
+                  discount 30% off</p>
+              <div class="from-mail">
+                  <input type="" placeholder="Your email address..">
+                  <i class="fa-sharp fa-regular fa-paper-plane"></i>
+              </div>
+              <div class="list-icon">
+                 <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                 <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="costumer column234">
+              <h4>Customer Care</h4>
+              <div class="line"></div>
+              <ul class="list-unstyle">
+                  <li><a href="#">Pagination</a></li>
+                  <li><a href="#">Home page</a></li> 
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Term of use</a></li>
+              </ul>
+          </div>
+
+          <div class="quick column234">
+              <h4>Quick Shop</h4>
+              <div class="line"></div>
+              <ul class="list-unstyle">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li> 
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Products Return</a></li>
+                  <li><a href="#">Wholesale Policy</a></li>
+              </ul>
+          </div>
+
+          <div class="company column234">
+              <h4>Company</h4>
+              <div class="line"></div>
+              <ul class="list-unstyle">
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Address Store</a></li> 
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Receivers & Amplifiers</a></li>
+                  <li><a href="#">KsportStore</a></li>
+              </ul>
+          </div>
+      </div>   
+  </div>
+  <div class="bottom-footer">
+      <div class="copyright">
+          <p>
+               © Copyright 2023 by
+               <a href="#">TranThanhMai</a>
+          </p>
+      </div>
+      <div class="payment">
+          <a href="#"><img src="../imgs/visa.png" alt=""></a>
+          <a href="#"><img src="../imgs/paypal-logo.png" alt=""></a>
+          <a href="#"><img src="../imgs/mastercard.jpeg" alt=""></a>
+          <a href="#"><img src="../imgs/jcb.jpeg" alt=""></a>
+      </div>
+  </div>
+
+
+
+
 
     <script src="./script.js"></script>
 </body>
