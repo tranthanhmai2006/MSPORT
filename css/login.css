@@ -56,6 +56,10 @@ form {
 .container .login:hover {
     background-color: #fe7250;
 }
-
+@media screen and (max-width: 450px){
+    body{
+        width: 100%;
+    }
+}
 
 

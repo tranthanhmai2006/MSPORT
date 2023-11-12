@@ -168,5 +168,21 @@ body {
     color: #757575;
     font-weight: 900;
 }
-
+@media screen and (max-width: 450px){
+    .products-container .lists {
+        flex-direction: column;
+        width: 100%;
+    }
+    .lists .list_item {
+        width: 90%;
+    }
+    .product-sizes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .product-sizes .product-size {
+        margin: 8px 0px;
+    }
+}
 
