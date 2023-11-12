@@ -329,3 +329,22 @@ textarea {
     /* margin-top: 100px; */
     margin: 100px auto;
 }
+/* phone */
+@media screen and (max-width: 450px) {
+    .footer {
+      flex-direction: column;
+  }
+  .column234 {
+      padding: 39px 0px 1px 16px;
+      width: 360px;
+  }
+  .payment img {
+      object-fit: cover;
+      width: 50px;
+      height: 23px;
+      margin: 0px 5px;
+  }
+  .copyright p {
+      font-size: 14px;;
+  }
+}
