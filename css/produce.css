@@ -307,7 +307,7 @@ nav .nav-link:hover {
 }
 
 /* phone */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .container {
         flex-direction: column;
     }
@@ -349,3 +349,4 @@ nav .nav-link:hover {
         font-size: 9px;
 
     }
+}

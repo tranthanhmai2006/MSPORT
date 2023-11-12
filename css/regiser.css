@@ -50,3 +50,8 @@ form {
 .container a:hover {
     color: #fe7250;
 }
+@media screen and (max-width: 450px){
+    body{
+        width: 100%;
+    }
+}
